@@ -1,2 +1,2 @@
-# kangoo-runner
-Runner en JS
+# Kangou-jump
+Project runner on JS

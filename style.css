@@ -1,0 +1,14 @@
+#game_screen{
+    margin: auto ;
+    margin-top: 150px;
+    text-align: center;
+}
+
+canvas{
+    max-width: 100%;
+    background-color: gray;
+}
+
+#preload{
+    display: none;
+}
