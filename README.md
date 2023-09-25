@@ -16,9 +16,9 @@ Contributeurs :
 - [Contexte](#contexte)
 - [Fonctionnalités](#fonctionnalités-demandées)
 - [Le format de fichier](#le-format-de-fichier)
-- [L'affichage](#l'affichage)
+- [L'affichage](#laffichage)
 - [Fonctionnement du bot](#fonctionnement-du-bot)
-- [Difficulté, vitesse d'avancement et score](#difficultés,-vitesse-d'avancemement-et-score)
+- [Difficulté, vitesse d'avancement et score](#difficultés-vitesse-d'avancemement-et-score)
 - [Editer un niveau](#editer-un-niveau)
 - [Bonus](#bonus)
 
