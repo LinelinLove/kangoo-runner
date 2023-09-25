@@ -14,10 +14,11 @@ Contributeurs :
 ## Sommaire
 
 - [Contexte](#contexte)
-- [Fonctionnalités](#fonctionnalités-demandées)
+- [Fonctionnalités demandées](#fonctionnalités-demandées)
 - [Le format de fichier](#le-format-de-fichier)
 - [L'affichage](#laffichage)
 - [Difficulté, vitesse d'avancement et score](#difficultés-vitesse-davancemement-et-score)
+- [Contrôles](#contrôles)
 - [Editer un niveau](#editer-un-niveau)
 - [Bonus](#bonus)
 
@@ -115,22 +116,21 @@ L'éditeur permettra également de fournir les autres informations du niveau : n
 
 Voici quelques idées supplémentaires à implémenter dans le projet. Si certaines sont réalisées avec succès, un bonus pourra être appliqué sur votre note :
 
-◦ Ajouter des blocs contenant des bonus :
-Créez des bonus influençant les mécaniques de jeu. Voici ceux à ajouter :
-Bonus "Terraformation" : remplace les N blocs suivants par des blocs "ligne droite" Bonus "Vitesse" : augmente la vitesse et donc le score, tout en rendant le jeu plus difficile
-Bonus "Multiplicateur" : pour les N blocs suivants, le score de ces blocs est doublé Bonus "Bouclier" : en cas de collision avec un bloc, "perd" le bouclier mais la partie continue
-Bonus "Score" : augmente le score de N points de manière fixe Ces bonus sont positionnés sur le niveau de manière déterminée, à l'avance (aucun aléatoire). Ils s'obtiennent sur le même principe de collision que les obstacles. Si un bonus est en bas, ne rien faire permet d'obtenir le bonus. Si un bonus est en haut, il faudra sauter au bon moment pour obtenir le bonus.
-Ajoutez ces blocs ("ligne droite+bonus X", "obstacle bas+bonus Y", ...) dans l'éditeur pour pouvoir les positionner sur le niveau. Dans le fichier ".jmpr", le type de ces blocs sont les suivants :
-A : Terraformation
-B : Vitesse
-C : Multiplicateur
-D : Bouclier
-E : Score
+- Ajouter des blocs contenant des bonus :
+  - Créez des bonus influençant les mécaniques de jeu. Voici ceux à ajouter :
+  - Bonus "Terraformation" : remplace les N blocs suivants par des blocs "ligne droite" Bonus "Vitesse" : augmente la vitesse et donc le score, tout en rendant le jeu plus difficile
+  - Bonus "Multiplicateur" : pour les N blocs suivants, le score de ces blocs est doublé Bonus "Bouclier" : en cas de collision avec un bloc, "perd" le bouclier mais la partie continue
+  - Bonus "Score" : augmente le score de N points de manière fixe Ces bonus sont positionnés sur le niveau de manière déterminée, à l'avance (aucun aléatoire). Ils s'obtiennent sur le même principe de collision que les obstacles. Si un bonus est en bas, ne rien faire permet d'obtenir le bonus. Si un bonus est en haut, il faudra sauter au bon moment pour obtenir le bonus.
+  Ajoutez ces blocs ("ligne droite+bonus X", "obstacle bas+bonus Y", ...) dans l'éditeur pour pouvoir les positionner sur le niveau. Dans le fichier ".jmpr", le type de ces blocs sont les suivants :
+
+    A : Terraformation
+    B : Vitesse
+    C : Multiplicateur
+    D : Bouclier
+    E : Score
+  
 Il faudra également ajouter la position du bonus (haut ou bas), représenté dans le type par "1" (bas) ou "2" (haut). Ainsi, un bloc "ligne droite" avec un bonus "Vitesse" en bas aura pour type "AB1" (A pour ligne droite, B pour vitesse, un pour "en bas").
-◦ Ajoutez une ambiance aux niveaux
+- Ajoutez une ambiance aux niveaux
 La musique référencée devra être jouée en boucle pendant le niveau.
 Une fois ceci réalisé, ajoutez des effets sonores à la fin de la partie, avec deux mélodies : une pour la victoire et une pour la défaite.
-◦ Ajoutez une musique
-
-Impression : Ce projet était un nouveau défi pour nous, où nous avons dû utiliser un langage inconnu jusqu'alors : le canvas.
-Avec un délai d'une semaine pour livrer le travail, cela a été un vrai défi pour nous. De plus, nous avons réalisé que notre connaissance du langage JavaScript, était limitée du au peu de cours que nous avons eu. Nous avons dû nous plonger rapidement dans l'apprentissage du JavaScript et du canvas pour comprendre les bases et les concepts nécessaires afin de réaliser le projet dans les délais impartis. Cela a été un défi stimulant, mais aussi une occasion d'apprendre rapidement et de développer de nouvelles compétences pour relever le défi avec succès.
+- Ajoutez une musique
