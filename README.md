@@ -19,7 +19,7 @@ Contributeurs :
 - [Fonctionnalités demandées](#fonctionnalités-demandées)
 - [Le format de fichier](#le-format-de-fichier)
 - [L'affichage](#laffichage)
-- [Difficulté, vitesse d'avancement et score](#difficultés-vitesse-davancemement-et-score)
+- [Difficulté, vitesse d'avancement et score](#difficulté-vitesse-davancement-et-score)
 - [Contrôles](#contrôles)
 - [Editer un niveau](#editer-un-niveau)
 - [Bonus](#bonus)
